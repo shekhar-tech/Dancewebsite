@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+h2{
+    font-family: 'Zen Loop';
+    text-align: center;
+    font-size: 4rem;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height:38.9rem;
+}
+.my_input{
+    margin: 5px 0px;
+    width: 35rem;
+    height: 3rem;
+    border: 2px ridge grey;
+    border-radius: 3px;
+    text-align: center;
+}
+.btn{
+    outline: none;
+    padding: 12px 39px;
+    margin: 20px 2px;
+    background: white;
+    font-size: larger;
+    border:1px solid grey;
+    border-radius: 5px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color:grey;
+    color:red;
+}
+::placeholder{
+    font-size: x-large;
+    font-family: 'Dancing Script', cursive;
+}

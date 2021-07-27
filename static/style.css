@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0%;
+}
+#navbar{
+    background-color:rgb(64 64 64);
+    padding: 21px 0px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 24px 30px;
+    font-family: 'Zen Loop', cursive;
+   
+    font-size: xx-large;
+    /* border:1px solid red; */
+    color: yellow;
+}
+
+#introsection{  
+    background: url(/static/dance1.jpg) center center/cover no-repeat;
+    height: 30rem;
+    width: 100%;
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 6rem;
+    /* background-color:aquamarine; */
+}
+
+#visionsection{
+    height:30rem;
+    background-color:white;
+    margin: auto;
+}
+#visionsection h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Zen loop', cursive;
+    /* font-family: 'Zen Tokyo Zoo', cursive; */
+    font-size: 3.5rem;
+    margin-bottom: -1.5rem;
+}
+
+.card{
+    display: inline-block;
+    /* flex-direction: column; */
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 2.5rem 1.8rem;
+    width: 28rem;
+    height: 22rem;
+}
+
+.card p{
+    text-align: center;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 3rem;
+}
+
+.cardbox{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.card-img{
+    height: 150px;
+    padding: 0px 15px;
+    margin: 69px 0px;
+}
+.card-img img {
+    height: inherit ;
+    padding: 0px 15px;
+}
+div .cardcontent p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+#sponsorsection{
+    height:25rem;
+    background-color:rgb(217, 236, 46);
+    display: flex;
+    justify-content: center;
+    font-family: 'Zen loop', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+#sponsorsection h2{
+    display: block;
+}
+#sponsors{
+    height: 165px;
+    max-width: 1008px;
+    margin: 107px auto;
+}
+
+.sponsor_image{
+    height: 80%;
+    margin:20px  25px;
+}
+
+#footerarea{
+    background-color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
+    color: blanchedalmond;
+}
+
+
+#navbar ul li a:hover{
+    border-bottom: 1px solid rgb(214, 194, 8);
+}

@@ -1,0 +1,22 @@
+{
+  "name": "shekhar_academy",
+  "version": "1.0.0",
+  "description": "move your ass like me",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "amazing"
+  ],
+  "author": "shekhar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.13.3",
+    "nodemon": "^2.0.11",
+    "pug": "^3.0.2"
+  }
+}

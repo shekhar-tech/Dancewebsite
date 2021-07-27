@@ -1,0 +1,50 @@
+extends base.pug
+
+block scripts 
+  script(src="../static/index.js")  
+  
+block style 
+ style
+   include ../static/style.css
+block content
+    section#introsection 
+       | Dance 2 Dance
+    section#visionsection
+       h2 Our Vision   
+       div.card
+         p Belle 
+         div.cardbox
+           div.card-img
+             img(src = "/static/belle.jpg")
+
+           div.cardcontent
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iste eveniet culpa.  
+             
+       div.card
+         p Classical 
+         div.cardbox
+           div.card-img
+             img(src = "/static/classical.jpg")
+
+           div.cardcontent
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iste eveniet culpa.  
+       div.card
+         p Freestyle 
+         div.cardbox
+           div.card-img
+             img(src = "/static/freestyle.jpg")
+
+           div.cardcontent
+              p Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iste eveniet culpa.  
+
+    section#sponsorsection
+       h2 Our Partners
+          div#sponsors
+             img(src="/static/abp.png" class="sponsor_image")
+             img(src="/static/zee.png" class="sponsor_image")
+             img(src="/static/Star_plus_(2016).png" class="sponsor_image")
+             img(src="/static/Microsoft-Logo-PNG.png" class="sponsor_image")
+       
+
+   
+   
